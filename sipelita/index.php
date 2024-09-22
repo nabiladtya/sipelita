@@ -1,21 +1,27 @@
-    <!-- NAVBAR -->
-    <?php
-        include('navbar.php');
-    ?>
-
+ <!-- Navbar -->
+ <?php include 'navbar.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homepage</title>
+    <title>Hompage Page</title>
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="style/style.css"/>
+    <!-- Bootstrap Bundle JS (includes Popper.js) -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js"></script>
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style/style.css" />
 </head>
 
+
 <body>
+
     <!-- Dashboard -->
     <div class="container mt-5">
         <div class="d-flex justify-content-between">
@@ -50,8 +56,6 @@
                 </div>
             </div>
         </div>
-
-
 
         <!-- Ringkasan -->
         <div class="mt-5">
@@ -99,17 +103,8 @@
         </div>
     </div>
 
-  
-
-        <!-- footer -->
-        <?php
-        include('footer.php');
-        ?>
-
-        <!-- Bootstrap JS and dependencies -->
-        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Footer -->
+    <?php include 'footer.php'; ?>
 
 </body>
 
